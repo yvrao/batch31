@@ -16,6 +16,12 @@ docker images
 
 docker run -it centos
 (inside container)
+ HEAD
+=======
+---
+----
+----
+ f266f99de23c92b50062fabf44f9454120527518
 exit  (container stop, exit)
 docker ps
 docker ps -a
@@ -25,7 +31,10 @@ dokcer run -it centos
 
 21:10shailajaok
 
+<<<<<<< HEAD
 jfjnnklfmvmlfmvkzfkmvmm lmmnzj
 nvnfkjnvjfv
 nhjifk
+=======
+>>>>>>> f266f99de23c92b50062fabf44f9454120527518
 
