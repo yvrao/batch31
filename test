@@ -1,0 +1,31 @@
+https://docs.docker.com/toolbox/toolbox_install_windows/
+
+curl -fsSL get.docker.com -o get-docker.sh
+sh get-docker.sh
+
+service docker start
+
+systemctl enable docker
+
+docker images
+docker search centos
+
+docker pull centos
+
+docker images
+
+docker run -it centos
+(inside container)
+---
+----
+----
+exit  (container stop, exit)
+docker ps
+docker ps -a
+
+dokcer run -it centos
+
+
+21:10shailajaok
+
+
